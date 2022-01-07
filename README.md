@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 <h1> What about me? </h1>
----
+
 - 🔭 I’m currently working on discord bots and a math project
 - 🌱 I’m currently learning everything about NLP! :)
 - ⚡ Fun fact: I love programming :)
