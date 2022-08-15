@@ -24,11 +24,11 @@ Here are some ideas to get you started:
 <h2>🏆 Github Profile Trophy</h2>
   <img width=800 src= "https://github-profile-trophy.vercel.app/?username=PhantHive&theme=radical"/>
 
----
+--- Stats
   
 <div>
   <img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&theme=radical">
   
----
+--- Lang
   
-<img align="center" width=500 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=radical" alt="PhantHive" />
+<img align="center" width=200 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=radical" alt="PhantHive" />
