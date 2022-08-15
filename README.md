@@ -31,8 +31,8 @@ Here are some ideas to get you started:
 
 ----
   
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40" alt="SanskarJaiswal" />
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sanskarjaiswal2001&count_private=true&theme=radical" alt="PhantHive" />
 
 ----
   
-<img align="center" width=500 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40" alt="SanskarJaiswal" />
+<img align="center" width=500 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40" alt="PhantHive" />
