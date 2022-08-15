@@ -33,9 +33,6 @@ Here are some ideas to get you started:
 
 ----
 
-<div align="center">
-  <img  src="https://github.com/PhantHive/PhantHive/blob/main/resources/img/grid-snake.svg"
-       alt="snake" /></a>
-</div>
+| ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya664&theme=tokyonight) | ![Github Stars](https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&locale=en&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats&disable_animations=true&theme=tokyonight) |
 
 ------
