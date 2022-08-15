@@ -33,9 +33,9 @@ Here are some ideas to get you started:
 
 ----
 
-<p align="center">
-  <img  src="https://raw.githubusercontent.com/PhantHive/PhantHive/main/resources/img/github-contribution-grid-snake.svg"
-    alt="example" />
-</p>
+<div align="center">
+  <img  src="https://github.com/PhantHive/PhantHive/blob/main/resources/img/grid-snake.svg"
+       alt="snake" /></a>
+</div>
 
 ------
