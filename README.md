@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 
-![header](https://user-images.githubusercontent.com/59575502/127335491-fdba1874-e943-4d3c-ab8c-678ffe22f8b8.png](https://imgur.com/sZ0ffuT)
+![header](https://imgur.com/sZ0ffuT.png)
 
 <h1> What about me? </h1>
 
