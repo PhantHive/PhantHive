@@ -31,3 +31,11 @@ Here are some ideas to get you started:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&layout=compact" />
 </div>
 
+----
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/PhantHive/PhantHive/main/resources/img/github-contribution-grid-snake.svg"
+    alt="example" />
+</p>
+
+------
