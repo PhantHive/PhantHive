@@ -22,13 +22,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: I love programming :)
 
 <h2>🏆 Github Profile Trophy</h2>
-  <img width=800 src=https://github-profile-trophy.vercel.app/?username=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40"/>
+  <img width=800 src=https://github-profile-trophy.vercel.app/?username=PhantHive&theme=tokyonight"/>
 
 ---
   
 <div>
-  <img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40">
+  <img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&theme=tokyonight">
   
 ---
   
-<img align="center" width=500 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40" alt="PhantHive" />
+<img align="center" width=500 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=tokyonight" alt="PhantHive" />
