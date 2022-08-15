@@ -25,15 +25,10 @@ Here are some ideas to get you started:
   <img width=800 src=https://github-profile-trophy.vercel.app/?username=PhantHive&theme=radical&no-frame=true"/>
 
 ---
-
+  
 <div>
   <img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40">
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya664&theme=tokyonight) 
-</div>
 
-  
 ----
 
-| ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya664&theme=tokyonight) | ![Github Stars](https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&locale=en&count_private=true&hide_rank=true&custom_title=My%20GitHub%20Stats&disable_animations=true&theme=tokyonight) |
-
-------
+----
