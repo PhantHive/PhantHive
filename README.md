@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: I love programming :)
 
 <h2>🏆 Github Profile Trophy</h2>
-  <img width=800 src=https://github-profile-trophy.vercel.app/?username=PhantHive&theme=radical"/>
+  <img width=800 src= "https://github-profile-trophy.vercel.app/?username=PhantHive&theme=radical"/>
 
 ---
   
