@@ -27,11 +27,10 @@ Here are some ideas to get you started:
 ---
 
 <div>
-  <img height="170" align="left" src="https://github-readme-stats.vercel.app/api?username=PhantHive&count_private=true&include_all_commits=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&layout=compact" />
+  <img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40">
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya664&theme=tokyonight) 
 </div>
 
-<img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&&show_icons=true&title_color=02D752&icon_color=bb2acf&text_color=b3b3ff&bg_color=0,000000,130F40">
   
 ----
 
