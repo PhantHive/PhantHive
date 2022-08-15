@@ -27,8 +27,8 @@ Here are some ideas to get you started:
 ---
   
 <div>
-  <img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&theme=tokyonight">
+  <img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&theme=radical">
   
 ---
   
-<img align="center" width=500 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=tokyonight" alt="PhantHive" />
+<img align="center" width=500 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=radical" alt="PhantHive" />
