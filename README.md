@@ -21,8 +21,9 @@ Here are some ideas to get you started:
 <h1> What about me? </h1>
 
 - 🔭 I’m currently working on discord bots and an AI project called Big Brain
-- 🌱 I’m currently learning everything about NLP! :)
+- 🌱 Learning everything about NLP! :)
 - ⚡ Fun fact: I love programming :)
+- 📫 How to reach me: zakaria.chaouki@ipsa.fr
 
 <h2>🏆 Github Profile Trophy</h2>
   <img align="center" width=800 src= "https://github-profile-trophy.vercel.app/?username=PhantHive&theme=radical"/>
