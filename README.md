@@ -38,4 +38,4 @@ Here are some ideas to get you started:
   
 --- 
   
-<img align="center" width=350 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=radical" alt="PhantHive" />
+<img align="center" width=350 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=radical&hide=jupyter%20notebook&hide_title=true" alt="PhantHive" />
