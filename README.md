@@ -39,3 +39,9 @@ Here are some ideas to get you started:
 --- 
   
 <img align="center" width=350 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=radical&hide=jupyter%20notebook&hide_title=true" alt="PhantHive" />
+
+--- 
+<a href="https://dsc.bio/000007">
+  <img src="https://lanyard-profile-readme.vercel.app/api/239455598343618580?theme=dark&bg=000000&animated=true&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..." />
+</a>
+
