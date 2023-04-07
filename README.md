@@ -45,3 +45,8 @@ Here are some ideas to get you started:
   <img src="https://lanyard-profile-readme.vercel.app/api/239455598343618580?theme=dark&bg=000000&animated=true&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..." />
 </a>
 
+---
+<!-- animated snake -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PhantHive/PhantHive/main/dist/github-snake-dark.svg" alt="snake"></img>
+</p>
