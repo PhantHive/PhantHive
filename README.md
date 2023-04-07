@@ -1,49 +1,38 @@
+<div align="center">
+  <img src="https://imgur.com/2Ol38Ku.png" alt="header"></img>
+</div>
 
+<div align="center">
+  <h1> What about me? </h1>
+  <p> 🔭 I’m currently working on discord bots and an AI project called Big Brain</p>
+  <p> 🌱 Learning everything about NLP! :)</p>
+  <p> ⚡ Fun fact: I love programming :)</p>
+  <p> 📫 How to reach me: zakaria.chaouki@ipsa.fr</p>
+</div>
 
-<!--
-**PhantHive/PhantHive** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <h2>🏆 Github Profile Trophy</h2>
+  <img width=800 src="https://github-profile-trophy.vercel.app/?username=PhantHive&theme=discord"/>
+</div>
 
-Here are some ideas to get you started:
+---
+<div align="center">
+  <h3> Stats </h3>
+  <img src="https://github-readme-stats.vercel.app/api?username=PhantHive&theme=discord_old_blurple" alt="stats">
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+<div align="center">
+  <h3> Lang </h3>
+  <img width=350 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=discord_old_blurple&hide=jupyter%20notebook&hide_title=true" alt="PhantHive" />
+</div>
 
-
-![header](https://imgur.com/2Ol38Ku.png)
-
-<h1> What about me? </h1>
-
-- 🔭 I’m currently working on discord bots and an AI project called Big Brain
-- 🌱 Learning everything about NLP! :)
-- ⚡ Fun fact: I love programming :)
-- 📫 How to reach me: zakaria.chaouki@ipsa.fr
-
-<h2>🏆 Github Profile Trophy</h2>
-  <img align="center" width=800 src= "https://github-profile-trophy.vercel.app/?username=PhantHive&theme=radical"/>
-
-<h3> Stats </h3>
-
---- 
-  
-  <img align="center" src = "https://github-readme-stats.vercel.app/api?username=PhantHive&theme=radical">
- 
-<h3> Lang </h3>
-  
---- 
-  
-<img align="center" width=350 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=radical&hide=jupyter%20notebook&hide_title=true" alt="PhantHive" />
-
---- 
-<a href="https://dsc.bio/000007">
-  <img src="https://lanyard-profile-readme.vercel.app/api/239455598343618580?theme=dark&bg=000000&animated=true&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..." />
-</a>
+---
+<div align="center">
+  <a href="https://dsc.bio/000007">
+    <img src="https://lanyard-profile-readme.vercel.app/api/239455598343618580?theme=dark&bg=424549&animated=true&hideDiscrim=true&borderRadius=30px&idleMessage=Probably%20doing%20something%20else..." />
+  </a>
+</div>
 
 ---
 <!-- animated snake -->
