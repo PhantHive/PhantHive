@@ -34,13 +34,13 @@
 ---
 <div align="center">
   <h3> Stats </h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=PhantHive&theme=discord_old_blurple" alt="stats">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=PhantHive&theme=tokyonight" alt="stats">
 </div>
 
 ---
 <div align="center">
   <h3> Lang </h3>
-  <img width=350 src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&theme=discord_old_blurple&hide=jupyter%20notebook&hide_title=true" alt="PhantHive" />
+  <img width=350 src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PhantHive&theme=tokyonight&hide=jupyter%20notebook&hide_title=true" alt="PhantHive" />
 </div>
 
 ---
