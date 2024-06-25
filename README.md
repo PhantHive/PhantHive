@@ -1,41 +1,43 @@
+---
+
 <div align="center">
   <img src="https://imgur.com/QfGTb19.png" alt="header" width="100%">
 </div>
 
-# 🌌 Welcome to PhantHive's Cosmic Code Lab 🚀
+# 🌿 Welcome to PhantHive's Enchanted Grove 🧚‍♂️
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFB3&center=true&vCenter=true&width=435&lines=AI+Explorer;Discord+Bot+Creator;NLP+Enthusiast;Game+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFB3&center=true&vCenter=true&width=435&lines=AI+Magician;Discord+Sprite+Creator;NLP+Whisperer;Game+Alchemist)](https://git.io/typing-svg)
 
 </div>
 
-## 🛰️ Transmission from the AI Frontier
+## 🌸 Whisperings from the Enchanted Forest
 
-Greetings, fellow space traveler! I'm PhantHive, your guide through the digital cosmos. My mission? To explore strange new algorithms, seek out new AI life and new computational civilizations, to boldly code where no one has coded before!
+Hail and well met, wanderer of the mystical realms! I am PhantHive, your sprite-guide through the magical woods of technology. My quest? To conjure powerful spells in code, weave ancient algorithms, and discover arcane knowledge in the realms of Artificial Intelligence!
 
-- 🔭 Currently charting the unknown territories of AI with **Big Brain** at [Phearion](https://github.com/Phearion/)
-- 🌱 Cultivating knowledge in the gardens of Natural Language Processing
-- 🤖 Associate Founder of **Scrypt**, a student organization focused on AI and robotics
-- 💬 Fluent in Python, JavaScript, and Binary (okay, maybe not the last one... yet!)
-- ⚡ Fun fact: I can debug code faster than light travels through fiber optics! (Results may vary)
+- 🔮 Currently weaving spells with **Ai, Games and bots** at [Phearion]([https://github.com/Phearion/bigbrain](https://github.com/Phearion/))
+- 🌿 Harvesting wisdom in the arcane arts of Natural Language Processing
+- 🧙‍♂️ Co-founder of **Scrypt**, a collegiate guild dedicated to the mystical studies of AI and robotics
+- 💬 Proficient in the tongues of Python, JavaScript, and Assembly (okay, maybe not the last one... yet!)
+- ⚡ Fun fact: I can refactor spells quicker than a dragon's flight across the midnight sky! (Your mileage may vary)
 
-## 🚀 Mission Control: Current Projects
+## 🎇 Enchanter's Workshop: Current Projects
 
-1. **Big Brain** - An AI copilot for students, guiding them through the academic universe
+1. **Big Brain** - An AI familiar guiding scholars through the arcane libraries of academia
    - 🔗 [GitHub Repo](https://github.com/Phearion/big-brain)
-   - 🛠️ Tech Stack: Python, TensorFlow, Hugging Face Transformers
+   - 🛠️ Alchemical Tools: Python, TensorFlow, Hugging Face Charms
 
-2. **Discord Bots & Activities**
-   - 🤖 Student Helper Bot: Assisting students across the discord-verse
+2. **Discord Sprites & Quests**
+   - 🧚‍♂️ Academic Sprite Bot: Assisting scholars across the fairy ring network
      - 🔗 [GitHub Repo](https://github.com/PhantHive/ania-bot)
-   - 🎮 Lumina: A 1v1 fighter game in early access Discord SDK (Think Brawlhalla, but with more stardust!)
+   - 🎲 Lumina: A mystical duel game in the enchanted Discord realms (Think a magical duel of wits!) a Discord activity embedded game. (soon...)
 
-3. **INLP (Intergalactic Natural Language Processing)**
-   - 🧠 Building NLP models from scratch, because why use existing libraries when you can reinvent the wheel... in space!
+3. **INLP (IRIS Natural Language Processing)**
+   - 🍃 Cultivating homegrown NLP enchantments, because why use mundane libraries when you can brew your own potions!
    - 🔗 [GitHub Repo](https://github.com/PhantHive/inlp)
 
-## 🌠 Skills Constellation
+## 🌟 Arcane Skill Sigils
 
 <div align="center">
 
@@ -48,17 +50,13 @@ Greetings, fellow space traveler! I'm PhantHive, your guide through the digital 
 
 </div>
 
-## 📊 Cosmic Activity Log
+## 📈 Enchanted Activity Scroll
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&theme=radical" alt="PhantHive's GitHub stats">
 </div>
 
-[Earlier content remains the same]
-
-[Earlier content remains the same]
-
-## 🌍 Earth Contact Protocol
+## 🌍 Grove Communication Runes
 
 <div align="center">
 
@@ -72,7 +70,7 @@ Greetings, fellow space traveler! I'm PhantHive, your guide through the digital 
 
 <div align="center">
   <a href="https://dsc.bio/000007">
-    <img src="https://lanyard-profile-readme.vercel.app/api/239455598343618580?theme=dark&bg=1a1b27&animated=true&hideDiscrim=true&borderRadius=10px&idleMessage=Probably%20coding%20in%20another%20dimension..." />
+    <img src="https://lanyard-profile-readme.vercel.app/api/239455598343618580?theme=dark&bg=1a1b27&animated=true&hideDiscrim=true&borderRadius=10px&idleMessage=Probably conjuring code in another realm..." />
   </a>
 </div>
 
@@ -82,7 +80,7 @@ Greetings, fellow space traveler! I'm PhantHive, your guide through the digital 
 
 ```
 .  *  .  .  *  .  .  *
-  *  .  🕳️ .  .  *  .  *  .
+  *  .  🍄 .  .  *  .  *  .
  .  *     .  .     .  .  *
 *  .  .     .  *  .     .  *
  .     .  *     .  .  *  .
@@ -101,9 +99,11 @@ Greetings, fellow space traveler! I'm PhantHive, your guide through the digital 
   ############
  ################
 ==================
-      See ya!
+      Fare thee well!
 ```
 
-*"If the world is a tragedy, the man is the virtuoso"*
+*"If the world is a tragedy, the man is the virtuoso. If the man is the virtuoso."*
 
 </div>
+
+---
