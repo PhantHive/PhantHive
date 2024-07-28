@@ -1,5 +1,6 @@
 ---
 
+
 <div align="center">
   <img src="https://imgur.com/QfGTb19.png" alt="header" width="100%">
 </div>
@@ -29,13 +30,13 @@ Hail and well met, wanderer of the mystical realms! I am PhantHive, your sprite-
    - 🛠️ Alchemical Tools: Python, TensorFlow, Hugging Face Charms
 
 2. **Discord Sprites & Quests**
-   - 🧚‍♂️ Academic Sprite Bot: Assisting scholars across the fairy ring network
+   - 🧚‍♂️ Lucky Bot (old name: ania): Assisting scholars across the fairy ring network
      - 🔗 [GitHub Repo](https://github.com/PhantHive/ania-bot)
    - 🎲 Lumina: A mystical duel game in the enchanted Discord realms (Think a magical duel of wits!) a Discord activity embedded game. (soon...)
 
 3. **INLP (IRIS Natural Language Processing)**
    - 🍃 Cultivating homegrown NLP enchantments, because why use mundane libraries when you can brew your own potions!
-   - 🔗 [GitHub Repo](https://github.com/PhantHive/inlp)
+     - 🔗 [GitHub Repo](https://github.com/PhantHive/inlp)
 
 ## 🌟 Arcane Skill Sigils
 
@@ -102,7 +103,7 @@ Hail and well met, wanderer of the mystical realms! I am PhantHive, your sprite-
       Fare thee well!
 ```
 
-*"If the world is a tragedy, the man is the virtuoso. If the man is the virtuoso."*
+*"The tragedy is a symphony, and the Man is the Virtuoso."*
 
 </div>
 
