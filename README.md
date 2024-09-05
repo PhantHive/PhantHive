@@ -73,6 +73,9 @@ Hail and well met, wanderer of the mystical realms! I am PhantHive, your sprite-
   <a href="https://dsc.bio/000007">
     <img src="https://lanyard-profile-readme.vercel.app/api/239455598343618580?theme=dark&bg=1a1b27&animated=true&hideDiscrim=true&borderRadius=10px&idleMessage=Probably%20coding%20in%20another%20dimension..." />
   </a>
+  <a href="https://top.gg/bot/1250496056521654393">
+    <img src="https://top.gg/api/widget/1250496056521654393.svg">
+  </a>
 </div>
 
 ---
