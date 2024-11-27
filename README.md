@@ -30,11 +30,14 @@ Hail and well met, wanderer of the mystical realms! I am PhantHive, your sprite-
    - 🛠️ Alchemical Tools: Python, TensorFlow, Hugging Face Charms
 
 2. **Discord Sprites & Quests**
+   - 🥚Mythical game bot! a creature hatching game with only one command: /myth
+     - 🔗 [GitHub Repo](https://github.com/Phearion/Mythical)
+     - 🔗 [WEBSITE MYTHICAL](https://mythical.phearion.fr)
    - 🧚‍♂️ Lucky Bot (old name: ania): Assisting scholars across the fairy ring network
      - 🔗 [GitHub Repo](https://github.com/PhantHive/ania-bot)
    - 🎲 Lumina: A mystical duel game in the enchanted Discord realms (Think a magical duel of wits!) a Discord activity embedded game. (soon...)
 
-3. **INLP (IRIS Natural Language Processing)**
+4. **INLP (IRIS Natural Language Processing)**
    - 🍃 Cultivating homegrown NLP enchantments, because why use mundane libraries when you can brew your own potions!
      - 🔗 [GitHub Repo](https://github.com/PhantHive/inlp)
 
