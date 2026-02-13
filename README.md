@@ -308,20 +308,9 @@ A custom NLP toolkit built from scratch — because the best spells are the ones
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- SECTION: GITHUB STATS                                        -->
-<!--                                                               -->
-<!-- The public Vercel endpoint (github-readme-stats.vercel.app)   -->
-<!-- is officially unreliable due to rate limits. If the cards      -->
-<!-- below stop loading, set up the GitHub Actions workflow:        -->
-<!--                                                               -->
-<!--   1. Create .github/workflows/grs.yml (see grs.yml)          -->
-<!--   2. Run the workflow once (Actions tab → Run workflow)       -->
-<!--   3. Replace the <img> tags below with:                       -->
-<!--      <img src="./profile/stats.svg" ... />                    -->
-<!--      <img src="./profile/top-langs.svg" ... />                -->
-<!--                                                               -->
-<!-- The streak card uses streak-stats.demolab.com which is        -->
-<!-- maintained separately and is generally more reliable.          -->
+<!-- SECTION: GITHUB STATS — Local SVGs via GitHub Actions         -->
+<!-- Generated daily by .github/workflows/grs.yml                  -->
+<!-- No external services, no camo proxy, no downtime.             -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -330,16 +319,16 @@ A custom NLP toolkit built from scratch — because the best spells are the ones
 
 <br><br>
 
-  <!-- GitHub Stats Card -->
-  <img alt="PhantHive's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&bg_color=0a0015&title_color=00ffb3&icon_color=7b68ee&text_color=aaaacc&border_color=1a1a3e&hide_border=false&ring_color=ff69b4&include_all_commits=true" width="49%">
+  <!-- GitHub Stats Card (local SVG) -->
+  <img alt="PhantHive's GitHub Stats" src="./profile/stats.svg" width="49%">
 
-  <!-- GitHub Streak Stats — UPDATED: streak-stats.demolab.com -->
-  <img alt="PhantHive's Streak Stats" src="https://streak-stats.demolab.com?user=PhantHive&background=0a0015&ring=ff69b4&fire=ff69b4&currStreakLabel=00ffb3&sideLabels=7b68ee&currStreakNum=00ffb3&sideNums=aaaacc&dates=4a4a6a&border=1a1a3e" width="49%">
+  <!-- GitHub Streak Stats (local SVG) -->
+  <img alt="PhantHive's Streak Stats" src="./profile/streak.svg" width="49%">
 
 <br><br>
 
-  <!-- Top Languages -->
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&layout=compact&bg_color=0a0015&title_color=00ffb3&text_color=aaaacc&border_color=1a1a3e&hide_border=false&langs_count=8" width="40%">
+  <!-- Top Languages (local SVG) -->
+  <img alt="Top Languages" src="./profile/top-langs.svg" width="40%">
 
 </div>
 

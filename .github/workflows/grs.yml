@@ -1,20 +1,26 @@
 # ═══════════════════════════════════════════════════════════════
-# grs.yml — GitHub Readme Stats via GitHub Actions
+# grs.yml — Generate all stats as local SVGs (bypass camo)
 #
-# Place at: .github/workflows/grs.yml in your PhantHive repo
-# This generates static SVG cards into profile/ folder daily.
+# Place at: PhantHive/PhantHive/.github/workflows/grs.yml
 #
-# After first run, update README.md to use:
-#   <img src="./profile/stats.svg" ... />
-#   <img src="./profile/top-langs.svg" ... />
+# SETUP (one-time):
+#   1. Go to https://github.com/settings/tokens
+#   2. Generate a classic token with "repo" scope
+#   3. In your PhantHive/PhantHive repo → Settings → Secrets →
+#      Actions → New secret: name=PAT_TOKEN, value=<your token>
+#   4. Go to Actions tab → click "Update README Stats Cards" →
+#      Run workflow
+#
+# After first run, profile/ folder will contain:
+#   stats.svg, top-langs.svg, streak.svg
 # ═══════════════════════════════════════════════════════════════
 
 name: Update README Stats Cards
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # Runs daily at 3 AM UTC
-  workflow_dispatch:        # Manual trigger from Actions tab
+    - cron: "0 3 * * *"   # Daily at 3 AM UTC
+  workflow_dispatch:        # Manual trigger
 
 jobs:
   build:
@@ -23,7 +29,13 @@ jobs:
       contents: write
 
     steps:
+      # PAT_TOKEN required for profile repos (USERNAME/USERNAME)
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Create profile directory
+        run: mkdir -p profile
 
       # ── GitHub Stats Card ──
       - name: Generate stats card
@@ -31,9 +43,7 @@ jobs:
         with:
           card: stats
           options: >-
-            username=PhantHive&show_icons=true&include_all_commits=true
-            &bg_color=0a0015&title_color=00ffb3&icon_color=7b68ee
-            &text_color=aaaacc&border_color=1a1a3e&ring_color=ff69b4
+            username=PhantHive&show_icons=true&include_all_commits=true&bg_color=0a0015&title_color=00ffb3&icon_color=7b68ee&text_color=aaaacc&border_color=1a1a3e&ring_color=ff69b4&hide_border=false
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -43,11 +53,15 @@ jobs:
         with:
           card: top-langs
           options: >-
-            username=PhantHive&layout=compact&langs_count=8
-            &bg_color=0a0015&title_color=00ffb3
-            &text_color=aaaacc&border_color=1a1a3e
+            username=PhantHive&layout=compact&langs_count=8&bg_color=0a0015&title_color=00ffb3&text_color=aaaacc&border_color=1a1a3e&hide_border=false
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── Streak Stats Card (downloaded from demolab) ──
+      - name: Download streak stats SVG
+        run: |
+          curl -sL -o profile/streak.svg \
+            "https://streak-stats.demolab.com?user=PhantHive&background=0a0015&ring=ff69b4&fire=ff69b4&currStreakLabel=00ffb3&sideLabels=7b68ee&currStreakNum=00ffb3&sideNums=aaaacc&dates=4a4a6a&border=1a1a3e"
 
       # ── Commit & Push ──
       - name: Commit updated cards
