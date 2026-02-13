@@ -1,0 +1,255 @@
+<svg fill="none" viewBox="0 0 1200 300" width="1200" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <!-- Background overlay gradient for depth -->
+        <linearGradient id="bg-overlay" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0a0015;stop-opacity:0.65" />
+            <stop offset="40%" style="stop-color:#0d0d2b;stop-opacity:0.6" />
+            <stop offset="100%" style="stop-color:#1a0a2e;stop-opacity:0.7" />
+        </linearGradient>
+
+        <!-- Glass panel gradient -->
+        <linearGradient id="glass-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.2" />
+            <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.08" />
+        </linearGradient>
+
+        <!-- Glass border gradient -->
+        <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#00ffb3;stop-opacity:0.4" />
+            <stop offset="50%" style="stop-color:#7b68ee;stop-opacity:0.3" />
+            <stop offset="100%" style="stop-color:#ff69b4;stop-opacity:0.4" />
+        </linearGradient>
+
+        <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#00ffb3" />
+            <stop offset="50%" style="stop-color:#7b68ee" />
+            <stop offset="100%" style="stop-color:#ff69b4" />
+        </linearGradient>
+        <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#00ffb3;stop-opacity:0" />
+            <stop offset="50%" style="stop-color:#7b68ee;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#ff69b4;stop-opacity:0" />
+        </linearGradient>
+
+        <!-- Glassmorphism blur filter -->
+        <filter id="glass-blur">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur"/>
+            <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="glass"/>
+            <feBlend in="SourceGraphic" in2="glass"/>
+        </filter>
+
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="glow-strong">
+            <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+        <!-- Clip path for rounded glass panel -->
+        <clipPath id="glass-clip">
+            <rect x="0" y="0" width="1200" height="300" rx="0"/>
+        </clipPath>
+    </defs>
+
+    <style>
+        @keyframes twinkle1 { 0%,100%{opacity:.2} 50%{opacity:1} }
+        @keyframes twinkle2 { 0%,100%{opacity:.8} 50%{opacity:.1} }
+        @keyframes twinkle3 { 0%,100%{opacity:.4} 50%{opacity:.9} }
+        @keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+        @keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
+        @keyframes pulse { 0%,100%{opacity:.6} 50%{opacity:1} }
+        @keyframes scan { 0%{transform:translateX(-200px)} 100%{transform:translateX(1400px)} }
+        @keyframes drift { 0%{transform:translateX(0)} 100%{transform:translateX(30px)} }
+        @keyframes fairy-float {
+        0%,100%{transform:translate(0,0);opacity:.7}
+        25%{transform:translate(10px,-15px);opacity:1}
+        50%{transform:translate(-5px,-25px);opacity:.5}
+        75%{transform:translate(15px,-10px);opacity:.9}
+        }
+        @keyframes shimmer { 0%,100%{opacity:0.1} 50%{opacity:0.2} }
+        .star1 { animation: twinkle1 3s ease-in-out infinite; }
+        .star2 { animation: twinkle2 2.5s ease-in-out infinite; }
+        .star3 { animation: twinkle3 4s ease-in-out infinite; }
+        .float1 { animation: float1 6s ease-in-out infinite; }
+        .float2 { animation: float2 4.5s ease-in-out infinite; }
+        .scan-line { animation: scan 4s linear infinite; opacity: 0.15; }
+        .fairy { animation: fairy-float 5s ease-in-out infinite; }
+        .fairy2 { animation: fairy-float 7s ease-in-out infinite; animation-delay: -2s; }
+        .fairy3 { animation: fairy-float 6s ease-in-out infinite; animation-delay: -4s; }
+        .pulse-ring { animation: pulse 3s ease-in-out infinite; }
+        .nebula { animation: drift 20s ease-in-out infinite alternate; }
+        .glass-shimmer { animation: shimmer 4s ease-in-out infinite; }
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- LAYER 1: CUSTOM BACKGROUND IMAGE                            -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- Replace the href below with your custom image URL -->
+    <image
+        href="https://i.imgur.com/LAhSR5B.png"
+        x="0"
+        y="0"
+        width="1200"
+        height="300"
+        preserveAspectRatio="xMidYMid slice"
+        clip-path="url(#glass-clip)"
+    />
+
+    <!-- Dark overlay for better contrast and depth -->
+    <rect width="1200" height="300" fill="url(#bg-overlay)"/>
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- LAYER 2: GLASSMORPHISM PANEL                                -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- Extra dark backing for text visibility -->
+    <rect
+        x="100"
+        y="60"
+        width="1000"
+        height="180"
+        rx="20"
+        fill="#000000"
+        opacity="0.5"
+    />
+
+    <!-- Main glass panel with blur effect -->
+    <rect
+        x="100"
+        y="60"
+        width="1000"
+        height="180"
+        rx="20"
+        fill="url(#glass-grad)"
+        filter="url(#glass-blur)"
+        opacity="0.95"
+    />
+
+    <!-- Glass panel border with gradient -->
+    <rect
+        x="100"
+        y="60"
+        width="1000"
+        height="180"
+        rx="20"
+        fill="none"
+        stroke="url(#glass-border)"
+        stroke-width="1.5"
+        opacity="0.6"
+    />
+
+    <!-- Inner glow highlight for glass effect -->
+    <rect
+        x="102"
+        y="62"
+        width="996"
+        height="88"
+        rx="18"
+        fill="url(#glass-grad)"
+        opacity="0.3"
+        class="glass-shimmer"
+    />
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- LAYER 3: STARS & NEBULA (Behind glass)                      -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- LAYER 3: STARS & NEBULA (Behind glass)                      -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+
+    <!-- Nebula clouds -->
+    <ellipse class="nebula" cx="300" cy="150" rx="250" ry="120" fill="#7b68ee" opacity="0.04"/>
+    <ellipse class="nebula" cx="900" cy="100" rx="200" ry="100" fill="#ff69b4" opacity="0.03" style="animation-delay:-10s"/>
+    <ellipse class="nebula" cx="600" cy="200" rx="300" ry="80" fill="#00ffb3" opacity="0.02"/>
+
+    <!-- Stars field -->
+    <circle class="star1" cx="50" cy="30" r="1.5" fill="#fff"/>
+    <circle class="star2" cx="150" cy="80" r="1" fill="#aaddff"/>
+    <circle class="star3" cx="250" cy="20" r="1.2" fill="#fff"/>
+    <circle class="star1" cx="350" cy="60" r="0.8" fill="#ffd4e8"/>
+    <circle class="star2" cx="450" cy="15" r="1.5" fill="#fff"/>
+    <circle class="star3" cx="550" cy="45" r="1" fill="#aaddff"/>
+    <circle class="star1" cx="650" cy="25" r="1.3" fill="#fff"/>
+    <circle class="star2" cx="750" cy="70" r="0.8" fill="#b3ffe0"/>
+    <circle class="star3" cx="850" cy="10" r="1.5" fill="#fff"/>
+    <circle class="star1" cx="950" cy="50" r="1" fill="#ffd4e8"/>
+    <circle class="star2" cx="1050" cy="35" r="1.2" fill="#fff"/>
+    <circle class="star3" cx="1150" cy="65" r="0.8" fill="#aaddff"/>
+    <circle class="star1" cx="100" cy="250" r="1" fill="#fff"/>
+    <circle class="star2" cx="200" cy="280" r="0.8" fill="#b3ffe0"/>
+    <circle class="star3" cx="400" cy="260" r="1.2" fill="#fff"/>
+    <circle class="star1" cx="500" cy="290" r="1" fill="#ffd4e8"/>
+    <circle class="star2" cx="700" cy="270" r="0.8" fill="#fff"/>
+    <circle class="star3" cx="800" cy="285" r="1.5" fill="#aaddff"/>
+    <circle class="star1" cx="1000" cy="260" r="1" fill="#fff"/>
+    <circle class="star2" cx="1100" cy="275" r="1.2" fill="#b3ffe0"/>
+    <circle class="star1" cx="80" cy="140" r="0.6" fill="#fff"/>
+    <circle class="star3" cx="180" cy="180" r="0.8" fill="#fff"/>
+    <circle class="star2" cx="320" cy="160" r="0.7" fill="#ffd4e8"/>
+    <circle class="star1" cx="480" cy="200" r="0.9" fill="#fff"/>
+    <circle class="star3" cx="680" cy="170" r="0.6" fill="#aaddff"/>
+    <circle class="star2" cx="780" cy="140" r="0.8" fill="#fff"/>
+    <circle class="star1" cx="920" cy="190" r="0.7" fill="#b3ffe0"/>
+    <circle class="star3" cx="1080" cy="160" r="0.9" fill="#fff"/>
+
+    <!-- Distant station silhouette (geometric shapes) -->
+    <g opacity="0.15" class="float2">
+        <rect x="60" y="90" width="3" height="60" fill="#7b68ee" rx="1"/>
+        <rect x="55" y="110" width="13" height="3" fill="#7b68ee" rx="1"/>
+        <circle cx="61" cy="95" r="4" fill="none" stroke="#7b68ee" stroke-width="0.5"/>
+    </g>
+    <g opacity="0.1" class="float1">
+        <rect x="1100" y="70" width="4" height="80" fill="#ff69b4" rx="1"/>
+        <rect x="1093" y="100" width="18" height="3" fill="#ff69b4" rx="1"/>
+        <circle cx="1102" cy="75" r="5" fill="none" stroke="#ff69b4" stroke-width="0.5"/>
+    </g>
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- LAYER 4: CONTENT ON GLASS (Text, effects, decorations)     -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+
+    <!-- Scan line effect -->
+    <rect class="scan-line" x="0" y="0" width="200" height="300" fill="url(#line-grad)"/>
+
+    <!-- Fairy dust particles -->
+    <circle class="fairy" cx="200" cy="120" r="2" fill="#00ffb3" filter="url(#glow)" opacity="0.7"/>
+    <circle class="fairy2" cx="400" cy="80" r="1.5" fill="#ff69b4" filter="url(#glow)" opacity="0.6"/>
+    <circle class="fairy3" cx="800" cy="100" r="2" fill="#7b68ee" filter="url(#glow)" opacity="0.8"/>
+    <circle class="fairy" cx="1000" cy="130" r="1.5" fill="#00ffb3" filter="url(#glow)" opacity="0.5" style="animation-delay:-3s"/>
+    <circle class="fairy2" cx="600" cy="220" r="1.8" fill="#ffd4e8" filter="url(#glow)" opacity="0.6"/>
+    <circle class="fairy3" cx="150" cy="200" r="1.2" fill="#7b68ee" filter="url(#glow)" opacity="0.4"/>
+    <circle class="fairy" cx="950" cy="230" r="1.5" fill="#ff69b4" filter="url(#glow)" opacity="0.7" style="animation-delay:-1s"/>
+
+    <!-- Main title -->
+    <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="42" font-weight="bold" fill="url(#text-grad)" filter="url(#glow-strong)" class="float1">
+        P h a n t H i v e
+    </text>
+
+    <text x="600" y="200" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd700" opacity="0.95" letter-spacing="4" class="float2" filter="url(#glow)">
+        AI Magician · NLP Whisperer · Game Alchemist · Open to Work 💼
+    </text>
+
+    <!-- Decorative lines -->
+    <line x1="250" y1="220" x2="550" y2="220" stroke="url(#line-grad)" stroke-width="0.5" opacity="0.4"/>
+    <line x1="650" y1="220" x2="950" y2="220" stroke="url(#line-grad)" stroke-width="0.5" opacity="0.4"/>
+    <circle cx="600" cy="220" r="3" fill="#7b68ee" opacity="0.6" class="pulse-ring" filter="url(#glow)"/>
+
+    <!-- Bottom coordinate display -->
+    <text x="600" y="260" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00ffb3" letter-spacing="2" opacity="0.9" filter="url(#glow)">
+        COORDINATES: 5.2044°AU · 778.5M km · SECTOR: JUPITER_ORBIT · STATUS: ONLINE
+    </text>
+
+    <!-- Corner decorations -->
+    <path d="M20,20 L20,50 M20,20 L50,20" stroke="#00ffb3" stroke-width="1" opacity="0.4"/>
+    <path d="M1180,20 L1180,50 M1180,20 L1150,20" stroke="#ff69b4" stroke-width="1" opacity="0.4"/>
+    <path d="M20,280 L20,250 M20,280 L50,280" stroke="#7b68ee" stroke-width="1" opacity="0.4"/>
+    <path d="M1180,280 L1180,250 M1180,280 L1150,280" stroke="#00ffb3" stroke-width="1" opacity="0.4"/>
+</svg>
