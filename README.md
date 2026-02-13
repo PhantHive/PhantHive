@@ -244,13 +244,16 @@ interests:
 | Aspect | Details |
 |:-------|:--------|
 | **Type** | AI Research Assistant |
-| **Tech Stack** | Python, TensorFlow, PyTorch, HuggingFace 🤗 |
+| **Tech Stack** | Python, TensorFlow, PyTorch, HuggingFace 🤗, React, Node.js |
 | **Purpose** | Academic research & knowledge exploration |
 | **Status** | ⏸️ Paused |
 
 | Link | Description |
 |:-----|:------------|
-| 🔒 Private Repository | Frontend & Backend (Private) |
+| [🤖 AI Model](https://huggingface.co/PhantHive/bigbrain-v0.0.1) | BigBrain v0.0.1 on HuggingFace |
+| [🎨 Frontend](https://github.com/Phearion/big-brain) | React-based UI |
+| [🔧 API](https://github.com/Phearion/sushi) | Next.js API backend |
+| [🏋️ Training](https://github.com/Phearion/momo) | Model training repository |
 
 </details>
 
