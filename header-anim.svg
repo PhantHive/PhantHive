@@ -63,39 +63,23 @@
     </defs>
 
     <style>
-        @keyframes twinkle1 { 0%,100%{opacity:.2} 50%{opacity:1} }
-        @keyframes twinkle2 { 0%,100%{opacity:.8} 50%{opacity:.1} }
-        @keyframes twinkle3 { 0%,100%{opacity:.4} 50%{opacity:.9} }
-        @keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
-        @keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
-        @keyframes pulse { 0%,100%{opacity:.6} 50%{opacity:1} }
+        /* Simplified animations - only scan effect for performance */
         @keyframes scan { 0%{transform:translateX(-200px)} 100%{transform:translateX(1400px)} }
-        @keyframes drift { 0%{transform:translateX(0)} 100%{transform:translateX(30px)} }
-        @keyframes fairy-float {
-        0%,100%{transform:translate(0,0);opacity:.7}
-        25%{transform:translate(10px,-15px);opacity:1}
-        50%{transform:translate(-5px,-25px);opacity:.5}
-        75%{transform:translate(15px,-10px);opacity:.9}
-        }
-        @keyframes shimmer { 0%,100%{opacity:0.1} 50%{opacity:0.2} }
-        .star1 { animation: twinkle1 3s ease-in-out infinite; }
-        .star2 { animation: twinkle2 2.5s ease-in-out infinite; }
-        .star3 { animation: twinkle3 4s ease-in-out infinite; }
-        .float1 { animation: float1 6s ease-in-out infinite; }
-        .float2 { animation: float2 4.5s ease-in-out infinite; }
         .scan-line { animation: scan 4s linear infinite; opacity: 0.15; }
-        .fairy { animation: fairy-float 5s ease-in-out infinite; }
-        .fairy2 { animation: fairy-float 7s ease-in-out infinite; animation-delay: -2s; }
-        .fairy3 { animation: fairy-float 6s ease-in-out infinite; animation-delay: -4s; }
-        .pulse-ring { animation: pulse 3s ease-in-out infinite; }
-        .nebula { animation: drift 20s ease-in-out infinite alternate; }
-        .glass-shimmer { animation: shimmer 4s ease-in-out infinite; }
     </style>
 
     <!-- ═══════════════════════════════════════════════════════════ -->
-    <!-- LAYER 1: BACKGROUND - Black fallback with optional gradient -->
+    <!-- LAYER 1: BACKGROUND IMAGE FROM ROOT                         -->
     <!-- ═══════════════════════════════════════════════════════════ -->
-    <!-- Custom background image removed for compatibility -->
+    <image
+        href="bg.png"
+        x="0"
+        y="0"
+        width="1200"
+        height="300"
+        preserveAspectRatio="xMidYMid slice"
+        clip-path="url(#glass-clip)"
+    />
 
     <!-- Dark overlay for better contrast and depth -->
     <rect width="1200" height="300" fill="url(#bg-overlay)"/>
@@ -148,7 +132,6 @@
         rx="18"
         fill="url(#glass-grad)"
         opacity="0.3"
-        class="glass-shimmer"
     />
 
     <!-- ═══════════════════════════════════════════════════════════ -->
@@ -160,47 +143,47 @@
     <!-- ═══════════════════════════════════════════════════════════ -->
 
     <!-- Nebula clouds -->
-    <ellipse class="nebula" cx="300" cy="150" rx="250" ry="120" fill="#7b68ee" opacity="0.04"/>
-    <ellipse class="nebula" cx="900" cy="100" rx="200" ry="100" fill="#ff69b4" opacity="0.03" style="animation-delay:-10s"/>
-    <ellipse class="nebula" cx="600" cy="200" rx="300" ry="80" fill="#00ffb3" opacity="0.02"/>
+    <ellipse cx="300" cy="150" rx="250" ry="120" fill="#7b68ee" opacity="0.04"/>
+    <ellipse cx="900" cy="100" rx="200" ry="100" fill="#ff69b4" opacity="0.03"/>
+    <ellipse cx="600" cy="200" rx="300" ry="80" fill="#00ffb3" opacity="0.02"/>
 
     <!-- Stars field -->
-    <circle class="star1" cx="50" cy="30" r="1.5" fill="#fff"/>
-    <circle class="star2" cx="150" cy="80" r="1" fill="#aaddff"/>
-    <circle class="star3" cx="250" cy="20" r="1.2" fill="#fff"/>
-    <circle class="star1" cx="350" cy="60" r="0.8" fill="#ffd4e8"/>
-    <circle class="star2" cx="450" cy="15" r="1.5" fill="#fff"/>
-    <circle class="star3" cx="550" cy="45" r="1" fill="#aaddff"/>
-    <circle class="star1" cx="650" cy="25" r="1.3" fill="#fff"/>
-    <circle class="star2" cx="750" cy="70" r="0.8" fill="#b3ffe0"/>
-    <circle class="star3" cx="850" cy="10" r="1.5" fill="#fff"/>
-    <circle class="star1" cx="950" cy="50" r="1" fill="#ffd4e8"/>
-    <circle class="star2" cx="1050" cy="35" r="1.2" fill="#fff"/>
-    <circle class="star3" cx="1150" cy="65" r="0.8" fill="#aaddff"/>
-    <circle class="star1" cx="100" cy="250" r="1" fill="#fff"/>
-    <circle class="star2" cx="200" cy="280" r="0.8" fill="#b3ffe0"/>
-    <circle class="star3" cx="400" cy="260" r="1.2" fill="#fff"/>
-    <circle class="star1" cx="500" cy="290" r="1" fill="#ffd4e8"/>
-    <circle class="star2" cx="700" cy="270" r="0.8" fill="#fff"/>
-    <circle class="star3" cx="800" cy="285" r="1.5" fill="#aaddff"/>
-    <circle class="star1" cx="1000" cy="260" r="1" fill="#fff"/>
-    <circle class="star2" cx="1100" cy="275" r="1.2" fill="#b3ffe0"/>
-    <circle class="star1" cx="80" cy="140" r="0.6" fill="#fff"/>
-    <circle class="star3" cx="180" cy="180" r="0.8" fill="#fff"/>
-    <circle class="star2" cx="320" cy="160" r="0.7" fill="#ffd4e8"/>
-    <circle class="star1" cx="480" cy="200" r="0.9" fill="#fff"/>
-    <circle class="star3" cx="680" cy="170" r="0.6" fill="#aaddff"/>
-    <circle class="star2" cx="780" cy="140" r="0.8" fill="#fff"/>
-    <circle class="star1" cx="920" cy="190" r="0.7" fill="#b3ffe0"/>
-    <circle class="star3" cx="1080" cy="160" r="0.9" fill="#fff"/>
+    <circle cx="50" cy="30" r="1.5" fill="#fff" opacity="0.8"/>
+    <circle cx="150" cy="80" r="1" fill="#aaddff" opacity="0.6"/>
+    <circle cx="250" cy="20" r="1.2" fill="#fff" opacity="0.7"/>
+    <circle cx="350" cy="60" r="0.8" fill="#ffd4e8" opacity="0.8"/>
+    <circle cx="450" cy="15" r="1.5" fill="#fff" opacity="0.6"/>
+    <circle cx="550" cy="45" r="1" fill="#aaddff" opacity="0.7"/>
+    <circle cx="650" cy="25" r="1.3" fill="#fff" opacity="0.8"/>
+    <circle cx="750" cy="70" r="0.8" fill="#b3ffe0" opacity="0.6"/>
+    <circle cx="850" cy="10" r="1.5" fill="#fff" opacity="0.9"/>
+    <circle cx="950" cy="50" r="1" fill="#ffd4e8" opacity="0.7"/>
+    <circle cx="1050" cy="35" r="1.2" fill="#fff" opacity="0.8"/>
+    <circle cx="1150" cy="65" r="0.8" fill="#aaddff" opacity="0.6"/>
+    <circle cx="100" cy="250" r="1" fill="#fff" opacity="0.7"/>
+    <circle cx="200" cy="280" r="0.8" fill="#b3ffe0" opacity="0.6"/>
+    <circle cx="400" cy="260" r="1.2" fill="#fff" opacity="0.8"/>
+    <circle cx="500" cy="290" r="1" fill="#ffd4e8" opacity="0.7"/>
+    <circle cx="700" cy="270" r="0.8" fill="#fff" opacity="0.6"/>
+    <circle cx="800" cy="285" r="1.5" fill="#aaddff" opacity="0.9"/>
+    <circle cx="1000" cy="260" r="1" fill="#fff" opacity="0.7"/>
+    <circle cx="1100" cy="275" r="1.2" fill="#b3ffe0" opacity="0.8"/>
+    <circle cx="80" cy="140" r="0.6" fill="#fff" opacity="0.5"/>
+    <circle cx="180" cy="180" r="0.8" fill="#fff" opacity="0.6"/>
+    <circle cx="320" cy="160" r="0.7" fill="#ffd4e8" opacity="0.7"/>
+    <circle cx="480" cy="200" r="0.9" fill="#fff" opacity="0.8"/>
+    <circle cx="680" cy="170" r="0.6" fill="#aaddff" opacity="0.6"/>
+    <circle cx="780" cy="140" r="0.8" fill="#fff" opacity="0.7"/>
+    <circle cx="920" cy="190" r="0.7" fill="#b3ffe0" opacity="0.8"/>
+    <circle cx="1080" cy="160" r="0.9" fill="#fff" opacity="0.6"/>
 
     <!-- Distant station silhouette (geometric shapes) -->
-    <g opacity="0.15" class="float2">
+    <g opacity="0.15">
         <rect x="60" y="90" width="3" height="60" fill="#7b68ee" rx="1"/>
         <rect x="55" y="110" width="13" height="3" fill="#7b68ee" rx="1"/>
         <circle cx="61" cy="95" r="4" fill="none" stroke="#7b68ee" stroke-width="0.5"/>
     </g>
-    <g opacity="0.1" class="float1">
+    <g opacity="0.1">
         <rect x="1100" y="70" width="4" height="80" fill="#ff69b4" rx="1"/>
         <rect x="1093" y="100" width="18" height="3" fill="#ff69b4" rx="1"/>
         <circle cx="1102" cy="75" r="5" fill="none" stroke="#ff69b4" stroke-width="0.5"/>
@@ -213,28 +196,28 @@
     <!-- Scan line effect -->
     <rect class="scan-line" x="0" y="0" width="200" height="300" fill="url(#line-grad)"/>
 
-    <!-- Fairy dust particles -->
-    <circle class="fairy" cx="200" cy="120" r="2" fill="#00ffb3" filter="url(#glow)" opacity="0.7"/>
-    <circle class="fairy2" cx="400" cy="80" r="1.5" fill="#ff69b4" filter="url(#glow)" opacity="0.6"/>
-    <circle class="fairy3" cx="800" cy="100" r="2" fill="#7b68ee" filter="url(#glow)" opacity="0.8"/>
-    <circle class="fairy" cx="1000" cy="130" r="1.5" fill="#00ffb3" filter="url(#glow)" opacity="0.5" style="animation-delay:-3s"/>
-    <circle class="fairy2" cx="600" cy="220" r="1.8" fill="#ffd4e8" filter="url(#glow)" opacity="0.6"/>
-    <circle class="fairy3" cx="150" cy="200" r="1.2" fill="#7b68ee" filter="url(#glow)" opacity="0.4"/>
-    <circle class="fairy" cx="950" cy="230" r="1.5" fill="#ff69b4" filter="url(#glow)" opacity="0.7" style="animation-delay:-1s"/>
+    <!-- Fairy dust particles (static) -->
+    <circle cx="200" cy="120" r="2" fill="#00ffb3" filter="url(#glow)" opacity="0.7"/>
+    <circle cx="400" cy="80" r="1.5" fill="#ff69b4" filter="url(#glow)" opacity="0.6"/>
+    <circle cx="800" cy="100" r="2" fill="#7b68ee" filter="url(#glow)" opacity="0.8"/>
+    <circle cx="1000" cy="130" r="1.5" fill="#00ffb3" filter="url(#glow)" opacity="0.5"/>
+    <circle cx="600" cy="220" r="1.8" fill="#ffd4e8" filter="url(#glow)" opacity="0.6"/>
+    <circle cx="150" cy="200" r="1.2" fill="#7b68ee" filter="url(#glow)" opacity="0.4"/>
+    <circle cx="950" cy="230" r="1.5" fill="#ff69b4" filter="url(#glow)" opacity="0.7"/>
 
     <!-- Main title -->
-    <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="42" font-weight="bold" fill="url(#text-grad)" filter="url(#glow-strong)" class="float1">
+    <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="42" font-weight="bold" fill="url(#text-grad)" filter="url(#glow-strong)">
         P h a n t H i v e
     </text>
 
-    <text x="600" y="200" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd700" opacity="0.95" letter-spacing="4" class="float2" filter="url(#glow)">
+    <text x="600" y="200" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#ffd700" opacity="0.95" letter-spacing="4" filter="url(#glow)">
         AI Magician · NLP Whisperer · Game Alchemist · Open to Work 💼
     </text>
 
     <!-- Decorative lines -->
     <line x1="250" y1="220" x2="550" y2="220" stroke="url(#line-grad)" stroke-width="0.5" opacity="0.4"/>
     <line x1="650" y1="220" x2="950" y2="220" stroke="url(#line-grad)" stroke-width="0.5" opacity="0.4"/>
-    <circle cx="600" cy="220" r="3" fill="#7b68ee" opacity="0.6" class="pulse-ring" filter="url(#glow)"/>
+    <circle cx="600" cy="220" r="3" fill="#7b68ee" opacity="0.6" filter="url(#glow)"/>
 
     <!-- Bottom coordinate display -->
     <text x="600" y="260" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00ffb3" letter-spacing="2" opacity="0.9" filter="url(#glow)">
