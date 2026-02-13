@@ -315,22 +315,16 @@ A custom NLP toolkit built from scratch — because the best spells are the ones
 
 <br><br>
 
-  <!-- Stats with picture element for dark/light mode support -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&theme=midnight-purple&bg_color=0a0015&title_color=00ffb3&icon_color=7b68ee&text_color=aaaacc&border_color=1a1a3e&hide_border=false&ring_color=ff69b4">
-    <img alt="PhantHive's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&theme=midnight-purple&bg_color=0a0015&title_color=00ffb3&icon_color=7b68ee&text_color=aaaacc&border_color=1a1a3e&ring_color=ff69b4" width="49%">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=PhantHive&theme=midnight-purple&background=0a0015&ring=ff69b4&fire=ff69b4&currStreakLabel=00ffb3&sideLabels=7b68ee&currStreakNum=00ffb3&sideNums=aaaacc&dates=4a4a6a&border=1a1a3e">
-    <img alt="PhantHive's Streak Stats" src="https://github-readme-streak-stats.herokuapp.com?user=PhantHive&theme=midnight-purple&background=0a0015&ring=ff69b4&fire=ff69b4&currStreakLabel=00ffb3&sideLabels=7b68ee&currStreakNum=00ffb3&sideNums=aaaacc&dates=4a4a6a&border=1a1a3e" width="49%">
-  </picture>
+  <!-- GitHub Stats Card -->
+  <img alt="PhantHive's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&theme=midnight-purple&bg_color=0a0015&title_color=00ffb3&icon_color=7b68ee&text_color=aaaacc&border_color=1a1a3e&hide_border=false&ring_color=ff69b4&include_all_commits=true&count_private=true" width="49%">
+
+  <!-- GitHub Streak Stats -->
+  <img alt="PhantHive's Streak Stats" src="https://github-readme-streak-stats.herokuapp.com?user=PhantHive&theme=midnight-purple&background=0a0015&ring=ff69b4&fire=ff69b4&currStreakLabel=00ffb3&sideLabels=7b68ee&currStreakNum=00ffb3&sideNums=aaaacc&dates=4a4a6a&border=1a1a3e" width="49%">
 
 <br><br>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&layout=compact&theme=midnight-purple&bg_color=0a0015&title_color=00ffb3&text_color=aaaacc&border_color=1a1a3e&hide_border=false">
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&layout=compact&theme=midnight-purple&bg_color=0a0015&title_color=00ffb3&text_color=aaaacc&border_color=1a1a3e" width="40%">
-  </picture>
+  <!-- Top Languages -->
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&layout=compact&theme=midnight-purple&bg_color=0a0015&title_color=00ffb3&text_color=aaaacc&border_color=1a1a3e&hide_border=false&langs_count=8" width="40%">
 
 </div>
 
