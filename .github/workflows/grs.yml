@@ -1,23 +1,10 @@
-# ═══════════════════════════════════════════════════════════════
-# grs.yml — Generate all stats as local SVGs (bypass camo)
-#
-# Place at: PhantHive/PhantHive/.github/workflows/grs.yml
-#
-# SETUP (one-time):
-#   1. Go to https://github.com/settings/tokens
-#   2. Generate a classic token with "repo" scope
-#   3. In your PhantHive/PhantHive repo → Settings → Secrets →
-#      Actions → New secret: name=PAT_TOKEN, value=<your token>
-#   4. Go to Actions tab → click "Update README Stats Cards" →
-#      Run workflow
-#
-# After first run, profile/ folder will contain:
-#   stats.svg, top-langs.svg, streak.svg
-# ═══════════════════════════════════════════════════════════════
-
 name: Update README Stats Cards
 
 on:
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - 'profile/**'       # Ignore bot's own SVG commits
   schedule:
     - cron: "0 3 * * *"   # Daily at 3 AM UTC
   workflow_dispatch:        # Manual trigger
