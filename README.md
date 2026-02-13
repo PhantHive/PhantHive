@@ -63,6 +63,8 @@
 </div>
 
 <br>
+
+```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │  STATION LOG — ENTRY #∞                                                 │
 │  SUBJECT: PhantHive                                                     │
@@ -81,10 +83,10 @@
 > *Eyyo adventurers, recruiters, friends and welcome to my realm.*
 >
 > I am **PhantHive**, my real name is Zakaria Chaouki.
-> 
+>
 > I am a 25 years old graduated engineer in AeroSpace Engineering. I have a specialization in Artificial Intelligence.
 > While I have a strong background in aerospace, my strongest passion lies in software development and NLP.
-> 
+>
 > I am currently looking for a junior position in software development, AI research or NLP engineering. I am open to remote or on-site opportunities.
 > I love to contribute to tools that help people and make their lives easier, and I am always eager to learn new technologies and improve my skills.
 
@@ -103,8 +105,8 @@ interests:
   - "🧚 Discord Bots & Activities"
   - "🌿 Natural Language Processing"
   - "🎮 Game Dev (Unity C#)"
-  - "?? Software Development"
-  - "?? Web Technologies (React, Node.js)"
+  - "🛠️ Software Development"
+  - "🌐 Web Technologies (React, Node.js)"
 ```
 
   </td>
@@ -306,7 +308,20 @@ A custom NLP toolkit built from scratch — because the best spells are the ones
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- SECTION: GITHUB STATS — dark themed to match space palette   -->
+<!-- SECTION: GITHUB STATS                                        -->
+<!--                                                               -->
+<!-- The public Vercel endpoint (github-readme-stats.vercel.app)   -->
+<!-- is officially unreliable due to rate limits. If the cards      -->
+<!-- below stop loading, set up the GitHub Actions workflow:        -->
+<!--                                                               -->
+<!--   1. Create .github/workflows/grs.yml (see grs.yml)          -->
+<!--   2. Run the workflow once (Actions tab → Run workflow)       -->
+<!--   3. Replace the <img> tags below with:                       -->
+<!--      <img src="./profile/stats.svg" ... />                    -->
+<!--      <img src="./profile/top-langs.svg" ... />                -->
+<!--                                                               -->
+<!-- The streak card uses streak-stats.demolab.com which is        -->
+<!-- maintained separately and is generally more reliable.          -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -316,15 +331,15 @@ A custom NLP toolkit built from scratch — because the best spells are the ones
 <br><br>
 
   <!-- GitHub Stats Card -->
-  <img alt="PhantHive's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&theme=midnight-purple&bg_color=0a0015&title_color=00ffb3&icon_color=7b68ee&text_color=aaaacc&border_color=1a1a3e&hide_border=false&ring_color=ff69b4&include_all_commits=true&count_private=true" width="49%">
+  <img alt="PhantHive's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=PhantHive&show_icons=true&bg_color=0a0015&title_color=00ffb3&icon_color=7b68ee&text_color=aaaacc&border_color=1a1a3e&hide_border=false&ring_color=ff69b4&include_all_commits=true" width="49%">
 
-  <!-- GitHub Streak Stats -->
-  <img alt="PhantHive's Streak Stats" src="https://github-readme-streak-stats.herokuapp.com?user=PhantHive&theme=midnight-purple&background=0a0015&ring=ff69b4&fire=ff69b4&currStreakLabel=00ffb3&sideLabels=7b68ee&currStreakNum=00ffb3&sideNums=aaaacc&dates=4a4a6a&border=1a1a3e" width="49%">
+  <!-- GitHub Streak Stats — UPDATED: streak-stats.demolab.com -->
+  <img alt="PhantHive's Streak Stats" src="https://streak-stats.demolab.com?user=PhantHive&background=0a0015&ring=ff69b4&fire=ff69b4&currStreakLabel=00ffb3&sideLabels=7b68ee&currStreakNum=00ffb3&sideNums=aaaacc&dates=4a4a6a&border=1a1a3e" width="49%">
 
 <br><br>
 
   <!-- Top Languages -->
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&layout=compact&theme=midnight-purple&bg_color=0a0015&title_color=00ffb3&text_color=aaaacc&border_color=1a1a3e&hide_border=false&langs_count=8" width="40%">
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantHive&layout=compact&bg_color=0a0015&title_color=00ffb3&text_color=aaaacc&border_color=1a1a3e&hide_border=false&langs_count=8" width="40%">
 
 </div>
 
