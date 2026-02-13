@@ -93,18 +93,9 @@
     </style>
 
     <!-- ═══════════════════════════════════════════════════════════ -->
-    <!-- LAYER 1: CUSTOM BACKGROUND IMAGE                            -->
+    <!-- LAYER 1: BACKGROUND - Black fallback with optional gradient -->
     <!-- ═══════════════════════════════════════════════════════════ -->
-    <!-- Replace the href below with your custom image URL -->
-    <image
-        href="https://i.imgur.com/LAhSR5B.png"
-        x="0"
-        y="0"
-        width="1200"
-        height="300"
-        preserveAspectRatio="xMidYMid slice"
-        clip-path="url(#glass-clip)"
-    />
+    <!-- Custom background image removed for compatibility -->
 
     <!-- Dark overlay for better contrast and depth -->
     <rect width="1200" height="300" fill="url(#bg-overlay)"/>
