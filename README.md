@@ -4,7 +4,7 @@
 <!-- ╚═══════════════════════════════════════════════════════════════════╝ -->
 
 <!-- ANIMATED HEADER SVG — commit header-anim.svg to your repo root -->
-<div align="center" style="background-color: #000000; padding: 20px 0;">
+<div align="center">
   <a href="https://github.com/PhantHive">
     <img src="header-anim.svg" alt="PhantHive — AI Magician · NLP Whisperer · Open to Work" width="100%">
   </a>
@@ -13,7 +13,7 @@
 <!-- TYPING SVG — neon green on transparent, matching the space-fairy palette -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FFB3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=%E2%9C%A7+Transmitting+from+the+Enchanted+Sector...;%F0%9F%9B%B8+Weaving+spells+in+Python+%C2%B7+TypeScript+%C2%B7+AI;%F0%9F%A7%9A%E2%80%8D%E2%99%82%EF%B8%8F+Where+fantasy+meets+the+infinite+void)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FFB3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=%E2%9C%A7+Transmitting+from+the+Mythical+Realm...;%F0%9F%9B%B8+Weaving+spells+in+Python+%C2%B7+TypeScript+%C2%B7+AI;%F0%9F%A7%9A%E2%80%8D%E2%99%82%EF%B8%8F+Where+fantasy+meets+the+infinite+void)](https://git.io/typing-svg)
 
 </div>
 
@@ -23,7 +23,6 @@
 <a href="mailto:zakaria.chaouki@phanthive.com"><img src="https://img.shields.io/badge/💼_OPEN_TO_WORK-ffd700?style=for-the-badge&labelColor=0a0015" alt="Open to Work" /></a>
 <br>
 <a href="https://phanthive.com"><img src="https://img.shields.io/badge/⟨_Portfolio_⟩-0a0015?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjQiIGZpbGw9IiMwMGZmYjMiLz48L3N2Zz4=&labelColor=0a0015" alt="Portfolio" /></a>
-<a href="https://dsc.bio/000007"><img src="https://img.shields.io/badge/⟨_Discord_⟩-0a0015?style=flat-square&logo=discord&logoColor=7b68ee&labelColor=0a0015" alt="Discord" /></a>
 <a href="mailto:zakaria.chaouki@ipsa.fr"><img src="https://img.shields.io/badge/⟨_Signal_⟩-0a0015?style=flat-square&logo=gmail&logoColor=ff69b4&labelColor=0a0015" alt="Email" /></a>
 <a href="https://github.com/PhantHive"><img src="https://img.shields.io/badge/⟨_GitHub_⟩-0a0015?style=flat-square&logo=github&logoColor=ffffff&labelColor=0a0015" alt="GitHub" /></a>
 <a href="https://maya-design.cloud"><img src="https://img.shields.io/badge/⟨_Maya_Design_⟩-0a0015?style=flat-square&logo=adobe&logoColor=ff69b4&labelColor=0a0015" alt="Maya Design" /></a>
@@ -353,10 +352,6 @@ A custom NLP toolkit built from scratch — because the best spells are the ones
 
   <br>
 
-  <a href="https://dsc.bio/000007">
-    <img src="https://lanyard-profile-readme.vercel.app/api/239455598343618580?theme=dark&bg=0a0015&animated=true&hideDiscrim=true&borderRadius=10px&idleMessage=Drifting%20through%20the%20astral%20void..." alt="Discord Presence" />
-  </a>
-  &nbsp;&nbsp;
   <a href="https://top.gg/bot/1250496056521654393">
     <img src="https://top.gg/api/widget/1250496056521654393.svg" alt="Mythical on Top.gg" />
   </a>

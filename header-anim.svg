@@ -1,4 +1,7 @@
 <svg fill="none" viewBox="0 0 1200 300" width="1200" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Black background -->
+    <rect width="1200" height="300" fill="#000000"/>
+
     <defs>
         <!-- Background overlay gradient for depth -->
         <linearGradient id="bg-overlay" x1="0%" y1="0%" x2="100%" y2="100%">
