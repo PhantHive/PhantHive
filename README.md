@@ -83,10 +83,10 @@
 > *Eyyo adventurers, recruiters, friends and welcome to my realm.*
 >
 > I am **PhantHive**, my real name is Zakaria Chaouki.
->
+> 
 > I am a 25 years old graduated engineer in AeroSpace Engineering. I have a specialization in Artificial Intelligence.
 > While I have a strong background in aerospace, my strongest passion lies in software development and NLP.
->
+> 
 > I am currently looking for a junior position in software development, AI research or NLP engineering. I am open to remote or on-site opportunities.
 > I love to contribute to tools that help people and make their lives easier, and I am always eager to learn new technologies and improve my skills.
 
@@ -349,6 +349,13 @@ A custom NLP toolkit built from scratch — because the best spells are the ones
   <h3>⟨ STATION ACTIVITY ⟩</h3>
 
   <br>
+
+  <!-- Discord Presence via Lanyard — no OAuth, no permissions -->
+  <a href="https://discord.com/users/239455598343618580">
+    <img src="https://lanyard.cnrad.dev/api/239455598343618580?bg=0a0015&animated=true&borderRadius=12px&idleMessage=Wandering%20the%20void..." alt="Discord Presence" />
+  </a>
+
+  <br><br>
 
   <a href="https://top.gg/bot/1250496056521654393">
     <img src="https://top.gg/api/widget/1250496056521654393.svg" alt="Mythical on Top.gg" />
