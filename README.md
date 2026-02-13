@@ -4,7 +4,7 @@
 <!-- ╚═══════════════════════════════════════════════════════════════════╝ -->
 
 <!-- ANIMATED HEADER SVG — commit header-anim.svg to your repo root -->
-<div align="center">
+<div align="center" style="background-color: #000000; padding: 20px 0;">
   <a href="https://github.com/PhantHive">
     <img src="header-anim.svg" alt="PhantHive — AI Magician · NLP Whisperer · Open to Work" width="100%">
   </a>
@@ -20,7 +20,7 @@
 <!-- PROFILE BADGES ROW -->
 <div align="center">
 
-<a href="mailto:zakaria.chaouki@ipsa.fr"><img src="https://img.shields.io/badge/💼_OPEN_TO_WORK-ffd700?style=for-the-badge&labelColor=0a0015" alt="Open to Work" /></a>
+<a href="mailto:zakaria.chaouki@phanthive.com"><img src="https://img.shields.io/badge/💼_OPEN_TO_WORK-ffd700?style=for-the-badge&labelColor=0a0015" alt="Open to Work" /></a>
 <br>
 <a href="https://phanthive.com"><img src="https://img.shields.io/badge/⟨_Portfolio_⟩-0a0015?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjQiIGZpbGw9IiMwMGZmYjMiLz48L3N2Zz4=&labelColor=0a0015" alt="Portfolio" /></a>
 <a href="https://dsc.bio/000007"><img src="https://img.shields.io/badge/⟨_Discord_⟩-0a0015?style=flat-square&logo=discord&logoColor=7b68ee&labelColor=0a0015" alt="Discord" /></a>
@@ -41,10 +41,29 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- SECTION: ABOUT — styled as a "station log entry"             -->
+<!-- SECTION: HOLOGRAPHIC COMS SECTOR — Contact methods            -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-```
+<div align="center">
+  <h3>⟨ HOLOGRAPHIC COMS SECTOR ⟩</h3>
+  <sub>◈ Reach out across the digital void ◈</sub>
+
+<br><br>
+
+<a href="mailto:zaphial.chaouki@gmail.com"><img src="https://img.shields.io/badge/Gmail-0a0015?style=for-the-badge&logo=gmail&logoColor=ff69b4" alt="Gmail" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/zakaria-chaouki-8316801b9/"><img src="https://img.shields.io/badge/LinkedIn-0a0015?style=for-the-badge&logo=linkedin&logoColor=00ffb3" alt="LinkedIn" /></a>
+
+</div>
+
+<br>
+
+<!-- ANIMATED DIVIDER -->
+<div align="center">
+  <img src="divider.svg" alt="" width="100%">
+</div>
+
+<br>
 ┌─────────────────────────────────────────────────────────────────────────┐
 │  STATION LOG — ENTRY #∞                                                 │
 │  SUBJECT: PhantHive                                                     │
