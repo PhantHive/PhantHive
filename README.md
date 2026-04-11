@@ -6,7 +6,7 @@
 <!-- ANIMATED HEADER SVG — commit header-anim.svg to your repo root -->
 <div align="center">
   <a href="https://github.com/PhantHive">
-    <img src="header-anim.svg" alt="PhantHive — AI Magician · NLP Whisperer · Open to Work" width="100%">
+    <img src="github-profile-banner.gif" alt="PhantHive — AI Magician · NLP Whisperer · Open to Work" width="100%">
   </a>
 </div>
 
